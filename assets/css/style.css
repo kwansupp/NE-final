@@ -1,4 +1,4 @@
------------------------------------------------------------------------------------
+/*-----------------------------------------------------------------------------------
 
     Template Name: Unfold - Personal Resume & CV Template
     Template URI: site.com
@@ -710,6 +710,8 @@ p {
       .header-content-right .sub-title {
         font-size: 24px; } }
   .header-content-right .title {
+    color: #f08c00;
+    text-shadow: 4px 4px #190f01;
     font-size: 60px;
     text-transform: uppercase;
     padding-bottom: 15px; }
@@ -1781,11 +1783,11 @@ p.form-message.success, p.form-message.error {
 /* CUSTOM BOOTSTRAP CAROUSEL */
 
 .carousel-control {
-  background-color: #754ef9;
+  /*background-color: #754ef9;*/
   border-radius: 5px;
 
 }
-.carousel-control-next-icon {
+/*.carousel-control-next-icon {
   background-color: #754ef9;
   margin: 10px 5px;
 }
@@ -1793,6 +1795,10 @@ p.form-message.success, p.form-message.error {
 .carousel-control-prev-icon {
   background-color: #754ef9;
   margin: 10px 5px;
+}*/
+
+.carousel-control-next-text, .carousel-control-prev-text {
+  color: #754ef9;
 }
 
 /* Carousel Styles */
@@ -1813,6 +1819,15 @@ p.form-message.success, p.form-message.error {
     /*color: #fff;*/
 }
 
+.header-text p {
+  padding: 0 150px;
+}
+
+.carousel-item {
+  width: 100%;
+  text-align: center;
+}
+
 .vertical-center {
   margin: 0;
   position: absolute;
@@ -1821,8 +1836,19 @@ p.form-message.success, p.form-message.error {
   transform: translateY(-50%);
 }
 
-.header-text p {
-  padding: 0 150px;
+.carousel-content {
+  margin: 0;
+  width: 100%;
+  left: 0;
+  padding: 0 10%;
+}
+
+.gif-container {
+  padding: 5px;
+}
+
+#gif-cv {
+  width: 30%;
 }
 
 /* D3 CANVAS STYLES */
