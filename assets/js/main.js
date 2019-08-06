@@ -6,6 +6,9 @@
     
     $(window).on('load', function(event) {
         $('.preloader').delay(500).fadeOut(500);
+
+        $('.carousel').carousel('pause');
+        console.log($('.progress-line').length);        
     });
     
     
@@ -73,6 +76,7 @@
     //===== Progress Bar
     
     if($('.progress-line').length){
+        console.log($('.progress-line').length);
         $('.progress-line').appear(function(){
             var el = $(this);
             var percent = el.data('width');
@@ -122,7 +126,11 @@
     
 
     
-    //===== 
+    //===== Carousel
+    // $('.carousel').carousel({
+    //   interval: 10000
+    // });
+
     
     
     

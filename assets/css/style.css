@@ -1,4 +1,4 @@
-/*-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
 
     Template Name: Unfold - Personal Resume & CV Template
     Template URI: site.com
@@ -14,7 +14,7 @@
     ===================
 
     1.COMMON
-	2.HEADER
+	  2.HEADER
     3.ABOUT
     4.SERVICES
     4.CALL TO ACTION
@@ -102,7 +102,9 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
-  color: #8a8fa3;
+  color: black;
+  text-align: justify;
+  /*color: #8a8fa3;*/
   margin: 0px; }
   @media (max-width: 767px) {
     p {
@@ -716,6 +718,13 @@ p {
         font-size: 38px; } }
   .header-content-right p {
     padding-bottom: 40px; }
+
+.header-content p {
+  color: white;
+}
+/*.header-content .title h1 {
+  color: #F0950F;
+}*/
 
 .header-image {
   max-width: 430px;
@@ -1769,4 +1778,91 @@ p.form-message.success, p.form-message.error {
       line-height: 54px;
       cursor: pointer; }
 
+/* CUSTOM BOOTSTRAP CAROUSEL */
+
+/*.carousel-control-next {
+  background-color: #754ef9;
+}
+
+.carousel-control-prev {
+  background-color: #754ef9;
+}
+*/
+.carousel-control {
+  background-color: #754ef9;
+  border-radius: 5px;
+
+}
+.carousel-control-next-icon {
+  background-color: #754ef9;
+  margin: 10px 5px;
+}
+
+.carousel-control-prev-icon {
+  background-color: #754ef9;
+  margin: 10px 5px;
+}
+
+/* Carousel Styles */
+.carousel-indicators li {
+    background-color: rgba(117,78,249,0.3);
+}
+.carousel-indicators .active {
+    background-color: #754ef9;
+}
+
+
+
+
+/* Carousel Header Styles */
+.header-text {
+    position: absolute;
+    top: 20%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    /*color: #fff;*/
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.header-text p {
+  padding: 0 150px;
+}
+
+
+
+
+
+/*.header-text h2 {
+    font-size: 40px;
+}
+
+.header-text h2 span {
+    background-color: #2980b9;
+  padding: 10px;
+}
+
+.header-text h3 span {
+  background-color: #000;
+  padding: 15px;
+}
+*/
+
+/*
+br {
+  display: block;
+  margin: 50px 0;
+}*/
+
 /*# sourceMappingURL=style.css.map */
+
+/*.main-text p {
+  text-align: justify-all;
+}
