@@ -1780,14 +1780,6 @@ p.form-message.success, p.form-message.error {
 
 /* CUSTOM BOOTSTRAP CAROUSEL */
 
-/*.carousel-control-next {
-  background-color: #754ef9;
-}
-
-.carousel-control-prev {
-  background-color: #754ef9;
-}
-*/
 .carousel-control {
   background-color: #754ef9;
   border-radius: 5px;
@@ -1811,9 +1803,6 @@ p.form-message.success, p.form-message.error {
     background-color: #754ef9;
 }
 
-
-
-
 /* Carousel Header Styles */
 .header-text {
     position: absolute;
@@ -1836,7 +1825,10 @@ p.form-message.success, p.form-message.error {
   padding: 0 150px;
 }
 
-
+/* D3 CANVAS STYLES */
+.d3-canvas {
+  background-color: white;
+}
 
 
 
