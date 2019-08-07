@@ -1828,6 +1828,10 @@ p.form-message.success, p.form-message.error {
   text-align: center;
 }
 
+.carousel-item .about-content {
+  overflow: auto;
+}
+
 .vertical-center {
   margin: 0;
   position: absolute;
@@ -1873,6 +1877,9 @@ p.form-message.success, p.form-message.error {
   display: none;
 }
 
+.info-card p span {
+  font-style: italic;
+}
 
 
 /*.header-text h2 {
@@ -1890,10 +1897,10 @@ p.form-message.success, p.form-message.error {
 }
 */
 
-/*
-br {
+
+/*.abount-content p br {
   display: block;
-  margin: 50px 0;
+  margin: 40px 0;
 }*/
 
 /*# sourceMappingURL=style.css.map */
